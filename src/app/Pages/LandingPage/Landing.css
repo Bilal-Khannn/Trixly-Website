@@ -1,0 +1,45 @@
+.mainContainer {
+  height: 7661px;
+  /* width: 1440px; */
+}
+
+.divStyle {
+  width: auto;
+  height: 800px;
+  background-image: linear-gradient(
+      315deg,
+      rgba(255, 0, 229, 0.75) 0%,
+      rgba(150, 101, 157, 0.75) 100%
+    ),
+    url("/images/vr-man.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.scrollButton {
+  position: fixed;
+  right: 6.94%;
+  bottom: 6.94%;
+}
+
+.imageHero {
+  width: 654px;
+  height: 310px;
+  margin-left: 4.16%;
+  margin-right: 6.94%;
+}
+
+/* @media (min-width: 1024px) {
+  .divStyle {
+    width: 80%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .divStyle {
+    width: 100%;
+    height: 50vh;
+  }
+} */
